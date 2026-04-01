@@ -1,0 +1,39 @@
+code for fibonacci series in cpp
+
+
+
++6
+Here are two common methods for generating the Fibonacci series in C++, with the iterative method being more efficient for large sequences. 
+Naukri.com
+Naukri.com
+1. Iterative Method (Recommended)
+This method uses a while or for loop to calculate each number by adding the two preceding ones, optimizing space and time complexity. 
+Naukri.com
+Naukri.com
+ +1
+cpp
+#include <iostream>
+
+int main() {
+    int n;
+    // Prompt user for the number of terms
+    std::cout << "Enter the number of terms: ";
+    std::cin >> n;
+
+    int t1 = 0, t2 = 1, nextTerm = 0;
+
+    std::cout << "Fibonacci Series: ";
+
+    for (int i = 1; i <= n; ++i) {
+        // Print the current first term
+        std::cout << t1 << ", ";
+
+        // Calculate the next term and update variables
+        nextTerm = t1 + t2;
+        t1 = t2;
+        t2 = nextTerm;
+    }
+
+    std::cout << std::endl;
+    return 0;
+}
