@@ -36,10 +36,9 @@ public:
                 {
                     temp = {nums[i],nums[j],complement};
                     sort(temp.begin(),temp.end());
-                    st.insert(temp);
-                    mp[nums[j]]=index;
-                    index++;
+                    st.insert(temp);                   
                 }
+                mp[nums[j]] = 1;
                 else
                 {
                     mp[nums[j]]=index;
