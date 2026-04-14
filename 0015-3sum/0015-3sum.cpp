@@ -22,29 +22,24 @@ public:
         return vector<vector<int>>(st.begin(),st.end()); 
         */
         
-        /*
-        int index=0;
-        set<vector<int>> st;
-        for(int i=0;i<n;i++)
-        {
-            unordered_map<int,int> mp;
-            for(int j=i+1;j<n;j++)
+            /*
+            int index=0;
+            set<vector<int>> st;
+            for(int i=0;i<n;i++)
             {
-                vector<int> temp;
-                int complement=-(nums[i]+nums[j]);
-                if(mp.find(complement)!=mp.end())
+                unordered_map<int,int> mp;
+                for(int j=i+1;j<n;j++)
                 {
-                    temp = {nums[i],nums[j],complement};
-                    sort(temp.begin(),temp.end());
-                    st.insert(temp);                   
+                    vector<int> temp;
+                    int complement=-(nums[i]+nums[j]);
+                    if(mp.find(complement)!=mp.end())
+                    {
+                        temp = {nums[i],nums[j],complement};
+                        sort(temp.begin(),temp.end());
+                        st.insert(temp);                   
+                    }
+                    mp[nums[j]] = 1;
                 }
-                mp[nums[j]] = 1;
-                else
-                {
-                    mp[nums[j]]=index;
-                    index++;
-                }
-            }
         }
         return vector<vector<int>>(st.begin(),st.end()); 
         */
