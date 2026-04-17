@@ -44,7 +44,7 @@ public:
                         left++;
                     }
                 }
-                mp[[right]]=1;
+                mp[s[right]]=1;
                 maxi = max(maxi,right-left+1);
                 right++;
             }
