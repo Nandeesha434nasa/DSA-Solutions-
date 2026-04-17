@@ -44,11 +44,10 @@ public:
                         left++;
                     }
                 }
-                mp[s[right]]=1;
-                maxi = max(maxi, right - left + 1);
+                mp[[right]]=1;
+                maxi = max(maxi,right-left+1);
                 right++;
             }
-        
         return maxi;
     }
 };
