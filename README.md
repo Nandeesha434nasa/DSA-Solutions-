@@ -7,6 +7,7 @@
 | [0011-container-with-most-water](https://github.com/Nandeesha434nasa/DSA-Solutions-/tree/main/0011-container-with-most-water/) | Medium |
 | [0015-3sum](https://github.com/Nandeesha434nasa/DSA-Solutions-/tree/main/0015-3sum/) | Medium |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Nandeesha434nasa/DSA-Solutions-/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/Nandeesha434nasa/DSA-Solutions-/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0643-maximum-average-subarray-i](https://github.com/Nandeesha434nasa/DSA-Solutions-/tree/main/0643-maximum-average-subarray-i/) | Easy |
 ## Two Pointers
 | Problem Name | Difficulty |
@@ -35,4 +36,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Nandeesha434nasa/DSA-Solutions-/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
+## Dynamic Programming
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/Nandeesha434nasa/DSA-Solutions-/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 <!---LeetCode Topics End-->
